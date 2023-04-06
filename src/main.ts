@@ -40,21 +40,21 @@ WA.onInit().then(() => {
 
 const listenShowroomPopups = (area: string, squad: string) => {
     WA.room.area.onEnter(area).subscribe(() => {
-        currentPopup = WA.ui.openPopup(area+"Popup", "Bienvenue !\nÀ ma droite, vous trouverez des liens utiles mis à disposition par la Squad "+squad, [])
+        currentPopup = WA.ui.openPopup(area+"Popup", "Bienvenue !\nÀ droite, vous trouverez des liens utiles mis à disposition par la Squad "+squad, [])
     })
     WA.room.area.onLeave(area).subscribe(closePopup)
 }
 
 const listenChillPopups = (area: string) => {
     WA.room.area.onEnter(area).subscribe(() => {
-        currentPopup = WA.ui.openPopup(area+"Popup", "À ma gauche se trouve un espace détente.", [])
+        currentPopup = WA.ui.openPopup(area+"Popup", "À gauche se trouve un espace détente.", [])
     })
     WA.room.area.onLeave(area).subscribe(closePopup)
 }
 
 const listenSilentPopups = (area: string) => {
     WA.room.area.onEnter(area).subscribe(() => {
-        currentPopup = WA.ui.openPopup(area+"Popup", "En entrant dans cette salle d'isolement, vous ne serrez dérangé par personne.", [])
+        currentPopup = WA.ui.openPopup(area+"Popup", "En entrant dans cette salle d'isolement, vous ne serez dérangé par personne.", [])
     })
     WA.room.area.onLeave(area).subscribe(closePopup)
 }
