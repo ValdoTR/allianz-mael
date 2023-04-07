@@ -4816,7 +4816,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"URL n\u00b01 Squad Pilotage"
+                         "value":"URL panneau n\u00b01 Squad Pilotage"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -4839,7 +4839,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"URL n\u00b02 Squad Pilotage"
+                         "value":"URL panneau n\u00b02 Squad Pilotage"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -4885,7 +4885,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"URL n\u00b01 Squad Processus & Transformation"
+                         "value":"URL panneau n\u00b01 Squad Processus & Transformation"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -4908,7 +4908,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"URL n\u00b02 Squad Processus & Transformation"
+                         "value":"URL panneau n\u00b02 Squad Processus & Transformation"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -4977,7 +4977,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"URL n\u00b01 Squad Managers"
+                         "value":"URL panneau n\u00b01 Squad Managers"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -5000,7 +5000,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"URL n\u00b02 Squad Managers"
+                         "value":"URL panneau n\u00b02 Squad Managers"
                         }],
                  "rotation":0,
                  "visible":true,
