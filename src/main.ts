@@ -40,14 +40,14 @@ WA.onInit().then(() => {
 
 const listenShowroomPopups = (area: string, squad: string) => {
     WA.room.area.onEnter(area).subscribe(() => {
-        currentPopup = WA.ui.openPopup(area+"Popup", "Bienvenue !\nÀ droite, vous trouverez des liens utiles mis à disposition par la Squad "+squad, [])
+        currentPopup = WA.ui.openPopup(area+"Popup", "Bienvenue !\nEn lisant ces panneaux, vous trouverez des liens utiles mis à disposition par la Squad "+squad, [])
     })
     WA.room.area.onLeave(area).subscribe(closePopup)
 }
 
 const listenChillPopups = (area: string) => {
     WA.room.area.onEnter(area).subscribe(() => {
-        currentPopup = WA.ui.openPopup(area+"Popup", "À gauche se trouve un espace détente.", [])
+        currentPopup = WA.ui.openPopup(area+"Popup", "Ici se trouve un espace détente.", [])
     })
     WA.room.area.onLeave(area).subscribe(closePopup)
 }
