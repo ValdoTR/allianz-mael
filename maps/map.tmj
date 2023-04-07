@@ -5936,7 +5936,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"Allianz MAEL"
         }, 
         {
          "name":"mapImage",
@@ -5946,7 +5946,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"MAEL"
         }, 
         {
          "name":"script",
